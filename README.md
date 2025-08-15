@@ -12,7 +12,7 @@ End-to-end SQL project for a grocery store’s POS and inventory operations. Inc
 2) **Run in this order**
    
    - **PostgreSQL (psql)**
-     ```bash
+    
  
 psql -d grocery_pos -f "Schema-ProudPinoy.sql"
 
@@ -20,9 +20,9 @@ psql -d grocery_pos -f "Data Insertion-ProudPinoy.sql"
 
 psql -d grocery_pos -f "Procedures_Triggers_Queries-ProudPinoy.sql"
 
-     ```
+     
    - **MySQL**
-     ```bash
+     
      
 mysql -e "CREATE DATABASE grocery_pos;"
 
